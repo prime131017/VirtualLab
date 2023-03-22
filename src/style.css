@@ -1,0 +1,16 @@
+.navItem{
+    display: flex;
+    width: 100%;
+    background-color: #112B3E;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color:#FFFFFF;
+    margin: 23px 20px 12px 27px;
+  }
