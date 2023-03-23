@@ -1,4 +1,4 @@
-.navItem{
+.navItem {
   display: flex;
   width: 100%;
   background-color: #112B3E;
@@ -11,6 +11,46 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 47px;
-  color:#FFFFFF;
+  color: #FFFFFF;
   margin: 23px 20px 12px 27px;
+}
+
+.wrapper_article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #839695;
+
+}
+
+.wrapper_card{
+  margin: 40px 17px;
+}
+
+.wrapper_img {
+  width: 420px;
+  height: 299px;
+}
+
+.wrapper_img img{
+  width: 420px;
+  height: 299px;
+}
+
+.wrapper_title {
+  display: flex;
+    align-items: center;
+  width: 420px;
+  min-height: 151px;
+  background-color: #112B3E;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.wrapper_title h4{
+  margin: 10px;
 }
